@@ -39,7 +39,7 @@ const RecentProjects = () => {
                                     alt="cover"
                                     className="absolute w-full h-full object-cover rounded-2xl object-top"
                                     width={500}
-                                    height={1000}
+                                    height={500}
                                 />
                             </div>
 
