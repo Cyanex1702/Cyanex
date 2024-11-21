@@ -11,7 +11,7 @@ const Footer = () => {
             {/* background grid */}
             <div className="w-full absolute left-0 -bottom-72 min-h-96">
                 <Image
-                    src="/footer-grid.svg"
+                    src="footer-grid.svg"
                     alt="grid"
                     className="w-full h-full opacity-50 "
                     width={500}
@@ -57,16 +57,16 @@ const Footer = () => {
                 </a>
                 {/* Resume and Cover Letter Buttons */}
                 <div className="flex flex-col md:flex-row gap-3 mt-3">
-                    <a href="/Malik Saad Jalil (2024-A).pdf" download="Resume_Malik_Saad_Jalil.pdf">
+                    <a href="Malik Saad Jalil (2024-A).pdf" download="Resume_Malik_Saad_Jalil.pdf">
                         <MagicButton
-                            title="My Resume"
+                            title="Malik Saad Jalil Resume"
                             icon={<FaRegFilePdf size={24} />}
                             position="right"
                         />
                     </a>
-                    <a href="/Malik Saad Jalil Cover Letter(2024-A).pdf" download="Cover_Letter_Malik_Saad_Jalil.pdf">
+                    <a href="Malik Saad Jalil Cover Letter(2024-A).pdf" download="Cover_Letter_Malik_Saad_Jalil.pdf">
                         <MagicButton
-                            title="My Cover Letter"
+                            title="Malik Saad Jalil Cover Letter"
                             icon={<FaRegFilePdf size={24} />}
                             position="right"
                         />
