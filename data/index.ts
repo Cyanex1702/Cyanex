@@ -226,7 +226,7 @@ export const socialMedia = [
   {
     id: 3,
     img: "link.svg",
-    link: "www.linkedin.com/in/malik-saad-jalil-146985225",
+    link: "https://https://www.linkedin.com/in/malik-saad-jalil-146985225/",
   },
   {
     id: 4,
