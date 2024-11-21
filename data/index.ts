@@ -1,9 +1,9 @@
 export const navItems = [
-  { name: "About", link: "about" },
-  { name: "Projects", link: "projects" },
-  { name: "Experiences", link: "testimonials" },
-  { name: "FAQ'S", link: "faq" },
-  { name: "Contact", link: "contact" },
+  { name: "About", link: "#about" },
+  { name: "Projects", link: "#projects" },
+  { name: "Experiences", link: "#testimonials" },
+  { name: "FAQ'S", link: "#faq" },
+  { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
@@ -226,7 +226,7 @@ export const socialMedia = [
   {
     id: 3,
     img: "link.svg",
-    link: "https://https://www.linkedin.com/in/malik-saad-jalil-146985225/",
+    link: "https://www.linkedin.com/in/malik-saad-jalil-146985225/",
   },
   {
     id: 4,
