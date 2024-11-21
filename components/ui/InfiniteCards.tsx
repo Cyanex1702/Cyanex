@@ -210,17 +210,17 @@ export const InfiniteMovingCards = ({
             ))}
           </ul>
         </div>
-        <div className="absolute bottom-5 left-1/2 transform -translate-x-1/2 flex gap-4 z-20">
+        <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 flex gap-5 z-20">
           <button
               onClick={scrollLeftFunc}
 
-              className="p-4 bg-gray-800 text-white rounded-full hover:bg-yellow-400 hover:text-black"
+              className="p-3 md:p-4 bg-gray-800 text-white rounded-full hover:bg-yellow-400 hover:text-black"
           >
             <FaRegArrowAltCircleLeft size={18} />
           </button>
           <button
               onClick={scrollRightFunc}
-              className="p-4 bg-gray-800 text-white rounded-full hover:bg-yellow-400 hover:text-black"
+              className="p-3 md:p-4 bg-gray-800 text-white rounded-full hover:bg-yellow-400 hover:text-black"
           >
             <FaRegArrowAltCircleRight size={18}/>
           </button>
